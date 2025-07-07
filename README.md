@@ -17,7 +17,7 @@ This project is a modern version of the mobile game “Snake”. This mythical g
 No prerequisites required — simply open the game in your browser.
 
 ## Installation
-The project is deployed online at: *(add your live link here)*
+The project is deployed online at: [![Github Pages](https://mikaocko.github.io/Snake-game/)]
 
 If you'd like to run the game locally, you can either **download** or **clone** the project to your computer.
 
