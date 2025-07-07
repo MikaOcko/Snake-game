@@ -1,0 +1,97 @@
+/* ---------- Imports ---------- */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+/*---------- General settings ----------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "VT323", monospace;
+}
+
+body {
+    height:  100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ---------- Specific settings ---------- */
+
+body, .snake {
+    background-color: #414141;
+}
+
+.snake {
+    border:1px dotted #5a5a5a;
+}
+
+.food {
+    background-color:  #dedede;
+    border: 5px solid #999;
+}
+
+#game-board {
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    /* background-color: red; */
+    margin: 5px;
+}
+
+.game-border-1 {
+    border: 10px solid #595f43;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 10px #595f43;
+}
+
+.game-border-2 {
+    border: 8px solid #abb78a;
+    border-radius: 26px;
+    box-shadow: inset 0 0 0 10px #abb78a;
+}
+
+.game-border-3 {
+    border: 30px solid #8b966c;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 5px #8b966c;
+    background-color: #c4cfa3;
+}
+
+#instruction-text, #logo {
+    position: absolute;
+}
+
+#logo {
+    background-color: transparent;
+}
+
+#instruction-text {
+    top: 60%;
+    color: #333;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px;
+    margin: 0;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+}
+
+#score, #highScore {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+#score {
+    color: #abb78a;
+}
+
+#highScore {
+    color: #d8ddca;
+    display: none;
+}
